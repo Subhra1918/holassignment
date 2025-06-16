@@ -1,0 +1,120 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+
+    .blog-container {
+      max-width: 600px;
+      margin: 40px auto;
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    .blog-title {
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .post {
+      margin-bottom: 30px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 20px;
+    }
+
+    .post img {
+      width: 100%;
+      border-radius: 10px;
+      height: 120px;
+    }
+
+    .post-title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .post-date {
+      font-size: 14px;
+      color: #777;
+      margin-top: 4px;
+    }
+
+    .post-desc {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #333;
+    }
+
+    .read-more {
+      color: #007bff;
+      text-decoration: none;
+      font-weight: bold;
+      display: inline-block;
+      margin-top: 10px;
+    }
+
+    /* Floating button (optional) */
+    .floating-btn {
+      position: fixed;
+      bottom: 30px;
+      right: 20px;
+      background-color: #f4f4f4;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 10px;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="blog-container">
+    <div class="blog-title">Blog</div>
+
+    <div class="post">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Blog One">
+      <div class="post-title">Blog Post One</div>
+      <div class="post-date">April 24, 2024</div>
+      <div class="post-desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma..
+      </div>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+
+    <div class="post">
+      <img src="https://images.unsplash.com/photo-1593642632823-8f785ba67e45" alt="Blog Two">
+      <div class="post-title">Blog Post Two</div>
+      <div class="post-date">April 24, 2024</div>
+      <div class="post-desc">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ma..
+      </div>
+      <a href="#" class="read-more">Read More</a>
+    </div>
+  </div>
+
+  <div class="floating-btn" onclick="alert('Options clicked!')">
+    ☰
+  </div>
+
+  <script>
+    // Optional: Add more functionality for the floating button
+  </script>
+
+</body>
+</html>
